@@ -1,9 +1,0 @@
-
-{
-  "name": "安好一日",
-  "description": "你的私人温润生活助理，提供情绪陪伴、梦境绘图与实时愈音。愿你今日安好。",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
