@@ -67,11 +67,10 @@ const App: React.FC = () => {
     } catch (e: any) {
       console.error(e);
       if (e.message === "API_KEY_MISSING") {
-        setError("哎呀，我找不到我的‘通行密码’了。请检查 Vercel 环境变量里左边是否填了 API_KEY。");
+        setError("哎呀，安好似乎弄丢了它的‘通行密钥’。请在 Vercel 设置中检查 API_KEY 是否填错。");
       } else {
-        setError("我现在有点连接不上大脑，请检查网络或 API Key 是否有效。");
+        setError("我的思绪飘向了远方，暂时没能回应你。请稍后再试。");
       }
-      setIsTyping(false);
     } finally {
       setIsTyping(false);
     }
